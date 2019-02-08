@@ -24,10 +24,4 @@ public class Projectile : MonoBehaviour
         if (this.transform.position.y >= 5) //Projectile destroyed when leaving screen
             Destroy(this.gameObject);
     }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!collision.collider.CompareTag("Player"))
-            Destroy(this.gameObject); //Projectile destroyed when hitting an enemy
-    }
 }

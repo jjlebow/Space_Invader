@@ -4,56 +4,48 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D playerRigidbody2D;
+    protected int speed = 5;
+    public int lives = 3;
+
+    public GameObject leftBound;
+    public GameObject rightBound;
+    public GameObject projectile;
+    public GameObject enemyProjectile;
+
     private Collider2D playerCollider2D;
 
-    public int speed = 5;
-
-    public GameObject projectile;
-
-    public GameObject left_bound;
-    public GameObject right_bound;
-
-    private float left_x;
-    private float right_x;
+    private float leftX;
+    private float rightX;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerRigidbody2D = this.GetComponent<Rigidbody2D>();
-        playerCollider2D  = this.GetComponent<Collider2D>();
+        playerCollider2D = this.GetComponent<Collider2D>();
 
-        left_x            = left_bound.transform.position.x;
-        right_x           = right_bound.transform.position.x;
+        leftX = leftBound.transform.position.x;
+        rightX = rightBound.transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Space))
-        {
-            Shoot();
-        }
-
         Move();
+
+        if (Time.timeScale != 0 && (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Space)))
+            Shoot();
     }
 
     void Move()
     {
         float movementModifier = Input.GetAxisRaw("Horizontal");
 
-        if (this.transform.position.x >= right_x && movementModifier > 0)
-        {
+        if (this.transform.position.x >= rightX && movementModifier > 0)
             movementModifier = 0;
-        }
 
-        if (this.transform.position.x <= left_x && movementModifier < 0)
-        {
+        if (this.transform.position.x <= leftX && movementModifier < 0)
             movementModifier = 0;
-        }
 
-        playerRigidbody2D.velocity = new Vector2(movementModifier * speed * Time.deltaTime, 0);
-    
+        this.transform.Translate(new Vector2(movementModifier * speed * Time.deltaTime, 0));
     }
 
     void Shoot()
@@ -62,4 +54,14 @@ public class Player : MonoBehaviour
             Instantiate(projectile, this.transform.position, Quaternion.identity);
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Projectile")) //Enemy projectile tagged as "Projectile," player projectile has no tag
+        {
+            if (--lives == 0)
+                LevelManager.instance.gameOver = true;
+
+            Destroy(collision.gameObject);
+        }
+    }
 }

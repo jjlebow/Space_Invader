@@ -6806,6 +6806,54 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
+--- !u!1 &1725789075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1725789077}
+  - component: {fileID: 1725789076}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1725789076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725789075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64d38788fc8ab04ba97bcb5f099a647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  gameOver: 0
+  bonusCheck: 0
+  bonusAlive: 0
+  bonus: {fileID: 5713129498008795213, guid: ee44d55350440494db0c29178788ccdb, type: 3}
+--- !u!4 &1725789077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725789075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8115028, y: 1.5016404, z: -0.08453966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1774085233
 GameObject:
   m_ObjectHideFlags: 0
@@ -6958,7 +7006,6 @@ GameObject:
   - component: {fileID: 1774882858}
   - component: {fileID: 1774882857}
   - component: {fileID: 1774882859}
-  - component: {fileID: 1774882860}
   - component: {fileID: 1774882861}
   m_Layer: 0
   m_Name: Player
@@ -7041,32 +7088,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073033fdb28fae44699460b7d499e1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  lives: 3
+  leftBound: {fileID: 545678229}
+  rightBound: {fileID: 106357026}
   projectile: {fileID: 140621527609781729, guid: 7c70f20a1ccec274e903b41b5d196b4a,
     type: 3}
-  left_bound: {fileID: 545678229}
-  right_bound: {fileID: 106357026}
---- !u!50 &1774882860
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774882856}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 6
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!60 &1774882861
 PolygonCollider2D:
   m_ObjectHideFlags: 0
