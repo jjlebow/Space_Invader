@@ -8,8 +8,6 @@ public class EnemyMovement : MonoBehaviour
 	private Transform Enemies;
 	public float speed = 3;
 
-    private float yDirection;
-
     public GameObject left_bound;
     public GameObject right_bound;
 
@@ -20,7 +18,6 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
     	Enemies 		  = GetComponent<Transform> ();  
-        yDirection   	  = 0;  
 
         left_x            = left_bound.transform.position.x;
         right_x           = right_bound.transform.position.x;  
@@ -31,21 +28,24 @@ public class EnemyMovement : MonoBehaviour
     {
     	foreach(Transform enemy in Enemies)
     	{
-    		if (enemy.position.x < left_x || enemy.position.x > right_x)
+    		if ( (enemy.position.x <= left_x) || (enemy.position.x >= right_x) )
     		{
     			speed = -speed;
-    			yDirection = -0.5f;
+
+                Enemies.position += Vector3.down * 0.5f;
+
     		}
     	}
 
         Move();
+
     }
 
 
     void Move()
     {
-        Enemies.transform.Translate(new Vector2(speed * Time.deltaTime, yDirection));
-        yDirection = 0; //sets back to normal.
+        Enemies.transform.Translate(new Vector2(speed * Time.deltaTime, 0));
+        //yDirection = 0; //sets back to normal.
     }
 
     void OnTriggerEnter2D(Collider2D collider)
