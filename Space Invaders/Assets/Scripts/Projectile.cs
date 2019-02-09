@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
     {
         this.transform.Translate(new Vector3(0f, speed * Time.deltaTime));
 
-        if (this.transform.position.y >= 5) //Projectile destroyed when leaving screen
+        if (this.transform.position.y >= 8 || this.transform.position.y <= -8) //Projectile destroyed when leaving screen
             Destroy(this.gameObject);
     }
 }
