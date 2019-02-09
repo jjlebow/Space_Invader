@@ -26,6 +26,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
     	foreach(Transform enemy in Enemies)
     	{
     		if ( (enemy.position.x <= left_x) || (enemy.position.x >= right_x) )
@@ -33,11 +34,9 @@ public class EnemyMovement : MonoBehaviour
     			speed = -speed;
 
                 Enemies.position += Vector3.down * 0.5f;
-
+                return;
     		}
     	}
-
-        Move();
 
     }
 
