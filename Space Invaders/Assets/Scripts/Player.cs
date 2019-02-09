@@ -58,8 +58,10 @@ public class Player : MonoBehaviour
     {
         if (collision.collider.CompareTag("Projectile")) //Enemy projectile tagged as "Projectile," player projectile has no tag
         {
-            if (--lives == 0)
-                LevelManager.instance.gameOver = true;
+            --lives;
+            LevelManager.instance.LoseLife();
+
+
 
             Destroy(collision.gameObject);
         }
