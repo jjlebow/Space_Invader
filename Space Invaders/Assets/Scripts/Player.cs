@@ -61,8 +61,6 @@ public class Player : MonoBehaviour
             --lives;
             LevelManager.instance.LoseLife();
 
-
-
             Destroy(collision.gameObject);
         }
         else if (collision.collider.CompareTag("Enemy"))
