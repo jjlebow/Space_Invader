@@ -5833,6 +5833,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8025482584292432265, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
+        type: 3}
+      propertyPath: m_TagString
+      value: GameOver
+      objectReference: {fileID: 0}
     - target: {fileID: 8025482584292432261, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
         type: 3}
       propertyPath: m_LocalPosition.x
