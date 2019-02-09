@@ -27,6 +27,7 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         Move();
+        
     	foreach(Transform enemy in Enemies)
     	{
     		if ( (enemy.position.x <= left_x) || (enemy.position.x >= right_x) )

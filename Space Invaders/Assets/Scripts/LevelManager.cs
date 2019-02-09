@@ -6,17 +6,19 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
 
-    public int score = 0;
+    public int score       = 0;
 
-    public bool gameOver = false;
+    public bool gameOver   = false;
     public bool bonusCheck = false; //Has the UFO ever been killed? If it has, it will never respawn
     public bool bonusAlive = false; //Is the UFO currently alive? If it is, then another cannot be spawned
+    private int lives      = 3;
 
     public GameObject bonus;
 
     void Awake()
     {
         instance = this;
+
     }
 
     // Start is called before the first frame update
@@ -30,6 +32,10 @@ public class LevelManager : MonoBehaviour
     {
         if (!bonusCheck && !bonusAlive) //While we haven't killed the UFO and it isn't on the screen, it might spawn
             UFOSpawn();
+
+        if (lives == 0)
+            gameOver = true;
+
     }
 
     void UFOSpawn()
@@ -43,5 +49,10 @@ public class LevelManager : MonoBehaviour
             else //50% chance to spawn on the right
                 Instantiate(bonus, new Vector2(14, 6.5f), Quaternion.identity);
         }
+    }
+
+    public void LoseLife()
+    {
+        --lives;
     }
 }
