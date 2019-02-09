@@ -35,6 +35,15 @@ public class Enemy : MonoBehaviour
 		{	
 			Destroy(collider.gameObject);
 			Destroy(gameObject);
+
+            if (gameObject.tag == "Enemy Top")
+                LevelManager.instance.AddScore(40);
+
+            if (gameObject.tag == "Enemy Middle")
+                LevelManager.instance.AddScore(20);
+
+            if (gameObject.tag == "Enemy Bottom")
+                LevelManager.instance.AddScore(10);
 		}
 	}
 }

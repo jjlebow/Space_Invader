@@ -32,6 +32,8 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(score);
+        
         if (!bonusCheck && !bonusAlive) //While we haven't killed the UFO and it isn't on the screen, it might spawn
             UFOSpawn();
 
@@ -61,5 +63,10 @@ public class LevelManager : MonoBehaviour
     public void LoseLife()
     {
         --lives;
+    }
+
+    public void AddScore(int addToScore)
+    {
+        score += addToScore;
     }
 }

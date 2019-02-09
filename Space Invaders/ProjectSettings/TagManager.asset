@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
   - Projectile
   - GameOver
+  - Enemy Bottom
+  - Enemy Middle
+  - Enemy Top
   layers:
   - Default
   - TransparentFX

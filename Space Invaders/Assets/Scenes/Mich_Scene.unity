@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 10881450}
   m_Layer: 0
   m_Name: fourth row (8)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,6 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &33979079
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +247,7 @@ GameObject:
   - component: {fileID: 33979082}
   m_Layer: 0
   m_Name: second row (5)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -350,6 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &36385474
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +368,7 @@ GameObject:
   - component: {fileID: 36385477}
   m_Layer: 0
   m_Name: second row (1)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -469,6 +473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &72438136
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +489,7 @@ GameObject:
   - component: {fileID: 72438139}
   m_Layer: 0
   m_Name: last row(3)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,6 +594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &80314467
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +610,7 @@ GameObject:
   - component: {fileID: 80314470}
   m_Layer: 0
   m_Name: fourth row (6)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,6 +715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &88830677
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +731,7 @@ GameObject:
   - component: {fileID: 88830680}
   m_Layer: 0
   m_Name: last row (4)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -826,6 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &106357026
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +909,7 @@ GameObject:
   - component: {fileID: 107120155}
   m_Layer: 0
   m_Name: last row (11)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,6 +1014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &136808792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,7 +1030,7 @@ GameObject:
   - component: {fileID: 136808795}
   m_Layer: 0
   m_Name: last row (8)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1121,6 +1135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &153355619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1252,7 @@ GameObject:
   - component: {fileID: 191880353}
   m_Layer: 0
   m_Name: third row(8)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1341,6 +1357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &225975310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1373,7 @@ GameObject:
   - component: {fileID: 225975313}
   m_Layer: 0
   m_Name: third row (3)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1460,6 +1478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &282787472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,7 +1494,7 @@ GameObject:
   - component: {fileID: 282787475}
   m_Layer: 0
   m_Name: front (1)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1579,6 +1599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &293718524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,7 +1615,7 @@ GameObject:
   - component: {fileID: 293718527}
   m_Layer: 0
   m_Name: front (3)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1698,6 +1720,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &359050894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1736,7 @@ GameObject:
   - component: {fileID: 359050897}
   m_Layer: 0
   m_Name: second row (4)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1817,6 +1841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &367009298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1857,7 @@ GameObject:
   - component: {fileID: 367009301}
   m_Layer: 0
   m_Name: front (10)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1936,6 +1962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &391412278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,7 +1978,7 @@ GameObject:
   - component: {fileID: 391412281}
   m_Layer: 0
   m_Name: fourth row (7)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2055,6 +2083,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &414570877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,7 +2099,7 @@ GameObject:
   - component: {fileID: 414570880}
   m_Layer: 0
   m_Name: third row (11)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2174,6 +2204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &446049552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2220,7 @@ GameObject:
   - component: {fileID: 446049555}
   m_Layer: 0
   m_Name: last row (7)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2293,6 +2325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &516335677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2307,7 +2341,7 @@ GameObject:
   - component: {fileID: 516335680}
   m_Layer: 0
   m_Name: third row (6)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2412,6 +2446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2538,7 +2574,7 @@ GameObject:
   - component: {fileID: 558133642}
   m_Layer: 0
   m_Name: second row (6)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2643,6 +2679,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &638427002
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,7 +2695,7 @@ GameObject:
   - component: {fileID: 638427005}
   m_Layer: 0
   m_Name: last row (10)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2762,6 +2800,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &670853716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,7 +2816,7 @@ GameObject:
   - component: {fileID: 670853719}
   m_Layer: 0
   m_Name: fourth row (11)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2881,6 +2921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &811038208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2937,7 @@ GameObject:
   - component: {fileID: 811038211}
   m_Layer: 0
   m_Name: fourth row (5)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3000,6 +3042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &850729227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +3058,7 @@ GameObject:
   - component: {fileID: 850729230}
   m_Layer: 0
   m_Name: second row (9)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3119,6 +3163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &885154733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,7 +3179,7 @@ GameObject:
   - component: {fileID: 885154736}
   m_Layer: 0
   m_Name: third row (10)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3238,6 +3284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &886190194
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,7 +3300,7 @@ GameObject:
   - component: {fileID: 886190197}
   m_Layer: 0
   m_Name: front (11)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3357,6 +3405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &898500767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,7 +3421,7 @@ GameObject:
   - component: {fileID: 898500770}
   m_Layer: 0
   m_Name: last row (6)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3476,6 +3526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &923718483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3490,7 +3542,7 @@ GameObject:
   - component: {fileID: 923718486}
   m_Layer: 0
   m_Name: third row (1)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,6 +3647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &954661590
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,7 +3742,7 @@ GameObject:
   - component: {fileID: 955337540}
   m_Layer: 0
   m_Name: last row(2)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3793,6 +3847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &984592170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,7 +3863,7 @@ GameObject:
   - component: {fileID: 984592173}
   m_Layer: 0
   m_Name: fourth row (2)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3912,6 +3968,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &986613710
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,7 +3984,7 @@ GameObject:
   - component: {fileID: 986613713}
   m_Layer: 0
   m_Name: front (9)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4031,6 +4089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1003164358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4045,7 +4105,7 @@ GameObject:
   - component: {fileID: 1003164361}
   m_Layer: 0
   m_Name: third row (4)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4150,6 +4210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1004776929
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,7 +4226,7 @@ GameObject:
   - component: {fileID: 1004776932}
   m_Layer: 0
   m_Name: third row (5)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4269,6 +4331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1060889159
 GameObject:
   m_ObjectHideFlags: 0
@@ -4283,7 +4347,7 @@ GameObject:
   - component: {fileID: 1060889162}
   m_Layer: 0
   m_Name: second row (2)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4388,6 +4452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1081324256
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,7 +4468,7 @@ GameObject:
   - component: {fileID: 1081324259}
   m_Layer: 0
   m_Name: second row (8)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4507,6 +4573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1085461356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4521,7 +4589,7 @@ GameObject:
   - component: {fileID: 1085461359}
   m_Layer: 0
   m_Name: third row (2)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4626,6 +4694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1167245609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4710,7 @@ GameObject:
   - component: {fileID: 1167245612}
   m_Layer: 0
   m_Name: fourth row (10)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4745,6 +4815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1229769815
 GameObject:
   m_ObjectHideFlags: 0
@@ -4759,7 +4831,7 @@ GameObject:
   - component: {fileID: 1229769818}
   m_Layer: 0
   m_Name: third row (9)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4864,6 +4936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1345926591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,7 +4952,7 @@ GameObject:
   - component: {fileID: 1345926594}
   m_Layer: 0
   m_Name: front (5)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4983,6 +5057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1403751808
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,7 +5073,7 @@ GameObject:
   - component: {fileID: 1403751811}
   m_Layer: 0
   m_Name: last row (9)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5102,6 +5178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1433848239
 GameObject:
   m_ObjectHideFlags: 0
@@ -5116,7 +5194,7 @@ GameObject:
   - component: {fileID: 1433848242}
   m_Layer: 0
   m_Name: front (8)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5221,6 +5299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1439432773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5235,7 +5315,7 @@ GameObject:
   - component: {fileID: 1439432776}
   m_Layer: 0
   m_Name: fourth row (1)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5340,6 +5420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1460793291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5354,7 +5436,7 @@ GameObject:
   - component: {fileID: 1460793294}
   m_Layer: 0
   m_Name: front (7)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5459,6 +5541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1577231794
 GameObject:
   m_ObjectHideFlags: 0
@@ -5473,7 +5557,7 @@ GameObject:
   - component: {fileID: 1577231797}
   m_Layer: 0
   m_Name: fourth row (4)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5578,6 +5662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1588500799
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,7 +5678,7 @@ GameObject:
   - component: {fileID: 1588500802}
   m_Layer: 0
   m_Name: last row (1)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5697,6 +5783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1618355902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,7 +5799,7 @@ GameObject:
   - component: {fileID: 1618355905}
   m_Layer: 0
   m_Name: fourth row (3)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5816,6 +5904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1001 &1695518638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6027,7 +6117,7 @@ GameObject:
   - component: {fileID: 1774085236}
   m_Layer: 0
   m_Name: second row (3)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6132,6 +6222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1774882856
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,7 +6370,7 @@ GameObject:
   - component: {fileID: 1823462299}
   m_Layer: 0
   m_Name: front (2)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6383,6 +6475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1847182085
 GameObject:
   m_ObjectHideFlags: 0
@@ -6397,7 +6491,7 @@ GameObject:
   - component: {fileID: 1847182088}
   m_Layer: 0
   m_Name: front (6)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6502,6 +6596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1877014633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6516,7 +6612,7 @@ GameObject:
   - component: {fileID: 1877014636}
   m_Layer: 0
   m_Name: fourth row(9)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6621,6 +6717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &1988663656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6635,7 +6733,7 @@ GameObject:
   - component: {fileID: 1988663659}
   m_Layer: 0
   m_Name: second row (11)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6740,6 +6838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &2006649810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6754,7 +6854,7 @@ GameObject:
   - component: {fileID: 2006649813}
   m_Layer: 0
   m_Name: front (4)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6859,6 +6959,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &2026791171
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,7 +6975,7 @@ GameObject:
   - component: {fileID: 2026791174}
   m_Layer: 0
   m_Name: last row (5)
-  m_TagString: Enemy
+  m_TagString: Enemy Top
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6978,6 +7080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &2049633596
 GameObject:
   m_ObjectHideFlags: 0
@@ -6992,7 +7096,7 @@ GameObject:
   - component: {fileID: 2049633599}
   m_Layer: 0
   m_Name: second row (10)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7097,6 +7201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &2120859652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7111,7 +7217,7 @@ GameObject:
   - component: {fileID: 2120859655}
   m_Layer: 0
   m_Name: second row (7)
-  m_TagString: Enemy
+  m_TagString: Enemy Bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7216,6 +7322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
 --- !u!1 &2136390261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7230,7 +7338,7 @@ GameObject:
   - component: {fileID: 2136390264}
   m_Layer: 0
   m_Name: third row (7)
-  m_TagString: Enemy
+  m_TagString: Enemy Middle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7335,3 +7443,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab9b0ec2ac59e54db08bfce76d124ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
+    type: 3}
