@@ -56,12 +56,14 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Projectile")) //Enemy projectile tagged as "Projectile," player projectile has no tag
+        if (!collision.collider.CompareTag("Enemy")) //Enemy projectile tagged as "Projectile," player projectile has no tag
         {
             if (--lives == 0)
                 LevelManager.instance.gameOver = true;
 
             Destroy(collision.gameObject);
         }
+        else if (collision.collider.CompareTag("Enemy"))
+            LevelManager.instance.gameOver = true;
     }
 }
