@@ -4333,6 +4333,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 6759625807043988717, guid: 901e98133ea452945b9e21abe21f4e34,
     type: 3}
+--- !u!1 &1037074063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8025482584938069947, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1695518638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1060889159
 GameObject:
   m_ObjectHideFlags: 0
@@ -5921,7 +5927,7 @@ PrefabInstance:
     - target: {fileID: 8025482584292432265, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8025482584292432265, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
         type: 3}
@@ -6053,6 +6059,11 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8025482584938069947, guid: 42e46ed4c66bc8a4aad9fa269f80cafb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e46ed4c66bc8a4aad9fa269f80cafb, type: 3}
 --- !u!1 &1725789075
@@ -6089,6 +6100,7 @@ MonoBehaviour:
   bonusCheck: 0
   bonusAlive: 0
   bonus: {fileID: 5713129498008795213, guid: ee44d55350440494db0c29178788ccdb, type: 3}
+  gameOverMenu: {fileID: 1037074063}
 --- !u!4 &1725789077
 Transform:
   m_ObjectHideFlags: 0

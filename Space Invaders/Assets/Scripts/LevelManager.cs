@@ -14,12 +14,11 @@ public class LevelManager : MonoBehaviour
     private int lives      = 3;
 
     public GameObject bonus;
-    private GameObject gameOverMenu;
+    public GameObject gameOverMenu;
 
     void Awake()
     {
         instance = this;
-        gameOverMenu = GameObject.FindGameObjectWithTag("GameOver");
 
     }
 
@@ -38,12 +37,12 @@ public class LevelManager : MonoBehaviour
             UFOSpawn();
 
         if (lives == 0)
-            gameOver = true;
+          gameOver = true;
         
-        if(gameOver)
+        if(gameOver == true) //if gameover == true for any reason (including the if statement above)...
         {
-            gameOverMenu.SetActive(true);    //brings up the gameOverMenu when the conditions for gameOver have been met
-            //add a line here that also pauses the gamestate when the menu comes up. 
+            gameOverMenu.SetActive(true);    //brings up the gameOverMenu when any condition for gameover has been met
+            //add a line here that also pausess the gamestate when the menu comes up. 
         }
     }
 
