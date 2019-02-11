@@ -9,6 +9,8 @@ TagManager:
   - Enemy Middle
   - Enemy Top
   - Enemy
+  - GameOver
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX

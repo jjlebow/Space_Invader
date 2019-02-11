@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     protected int speed = 5;
-    public int lives = 3;
+    //public int lives = 3;
 
     public GameObject leftBound;
     public GameObject rightBound;
@@ -56,10 +56,10 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Projectile")) //Enemy projectile tagged as "Projectile," player projectile has no tag
+        if (collision.collider.CompareTag("EnemyProjectile")) //Enemy projectile tagged as "Projectile," player projectile has no tag
         {
-            --lives;
-            LevelManager.instance.LoseLife();
+            //--lives;
+            --LevelManager.instance.lives;
 
             Destroy(collision.gameObject);
         }
