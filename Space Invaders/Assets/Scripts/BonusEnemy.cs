@@ -34,9 +34,9 @@ public class BonusEnemy : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        Destroy(collision.gameObject);
+        Destroy(collider.gameObject);
         float percentage = Random.value; //generate a % to determine how many points the UFO will award for killing it
                                          //it should theoretically never collide with anything other than a player projectile
         if (percentage <= .2f)

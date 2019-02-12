@@ -17,6 +17,12 @@ public class LevelManager : MonoBehaviour
     public GameObject bonus;
     public GameObject gameOverMenu;
 
+    public GameObject winMenu;
+
+    public GameObject pauseMenu;
+
+    bool paused = false;
+
     void Awake()
     {
         instance = this;
@@ -38,11 +44,24 @@ public class LevelManager : MonoBehaviour
         if(gameOver == true || lives <= 0) //if gameover == true for any reason (including the if statement above)...
         {
             gameOverMenu.SetActive(true);    //brings up the gameOverMenu when any condition for gameover has been met
-            //add a line here that also pausess the gamestate when the menu comes up. 
+            Time.timeScale = 0f;
         }
         else if (hasWon == true)
         {
-            //victory!
+            winMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(paused == false)
+            {
+                PauseGame();
+            }
+            else
+            {
+                ResumeGame();
+            }
         }
     }
 
@@ -63,5 +82,24 @@ public class LevelManager : MonoBehaviour
     public void AddScore(int addToScore)
     {
         score += addToScore;
+    }
+
+    public void PauseGame()
+    {
+        paused = true;
+        Time.timeScale = 0f;
+        pauseMenu.SetActive(true);
+    }
+    public void ResumeGame()
+    {
+        paused = false;
+        Time.timeScale = 1f;
+        pauseMenu.SetActive(false);
+
+    }
+    public void ExitGame()
+    {
+        Debug.Log("Exiting Game");
+        Application.Quit();
     }
 }
