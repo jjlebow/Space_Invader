@@ -23,9 +23,9 @@ public class BonusEnemy : MonoBehaviour
     void Update()
     {
         if (directionCheck == 1) //if it's travelling right or left, we have to account for it in the vector
-            bonusRigidbody2D.velocity = new Vector2(4f, 0f);
+            bonusRigidbody2D.velocity = new Vector2(2.5f, 0f);
         else if (directionCheck == 0)
-            bonusRigidbody2D.velocity = new Vector2(-4f, 0f);
+            bonusRigidbody2D.velocity = new Vector2(-2.5f, 0f);
 
         if (this.transform.position.x < -14 || this.transform.position.x > 14) //if it goes off-screen again it will despawn
         {

@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class EnemyMovement : MonoBehaviour
 {
 	private Transform Enemies;
-	public float speed = 3;
+    private Collider2D enemyCollider2D;
+
+    public float speed = 1.5f;
 
     public GameObject left_bound;
     public GameObject right_bound;
@@ -17,7 +19,8 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    	Enemies 		  = GetComponent<Transform> ();  
+    	Enemies 		  = GetComponent<Transform> ();
+        enemyCollider2D = GetComponent<Collider2D>();
 
         left_x            = left_bound.transform.position.x;
         right_x           = right_bound.transform.position.x;  
@@ -27,9 +30,13 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         Move();
-        
-    	foreach(Transform enemy in Enemies)
+
+        int enemiesLeft = 0;
+
+        foreach (Transform enemy in Enemies)
     	{
+            enemiesLeft++;
+
     		if ( (enemy.position.x <= left_x) || (enemy.position.x >= right_x) )
     		{
     			speed = -speed;
@@ -39,6 +46,8 @@ public class EnemyMovement : MonoBehaviour
     		}
     	}
 
+        if (enemiesLeft == 0)
+            LevelManager.instance.hasWon = true;
     }
 
 

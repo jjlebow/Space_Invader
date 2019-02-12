@@ -17,15 +17,16 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Vector2 bottomPosition = new Vector2(this.transform.position.x, enemyCollider2D.bounds.min.y);
-        RaycastHit2D detection = Physics2D.Raycast(bottomPosition, Vector2.down, 0.5f);
+        RaycastHit2D detection = Physics2D.Raycast(bottomPosition, Vector2.down, 5f);
+        Debug.DrawRay(this.transform.position, Vector3.down*5, Color.green, 0.01f);
 
-        if (!detection.collider)
+        if (!detection.collider || (detection.collider.CompareTag("Player")))
             Shoot();
     }
 
     void Shoot()
     {
-        if (Random.value <= .003f) //20% chance it'll fire a projectile during a second
+        if (Random.value <= .002f) //15% chance it'll fire a projectile during a second
             Instantiate(enemyProjectile, this.transform.position, Quaternion.identity);
     }
 
@@ -36,13 +37,11 @@ public class Enemy : MonoBehaviour
 			Destroy(collider.gameObject);
 			Destroy(gameObject);
 
-            if (gameObject.tag == "Enemy Top")
+            if (gameObject.CompareTag("Enemy Top"))
                 LevelManager.instance.AddScore(40);
-
-            if (gameObject.tag == "Enemy Middle")
+            else if (gameObject.CompareTag("Enemy Middle"))
                 LevelManager.instance.AddScore(20);
-
-            if (gameObject.tag == "Enemy Bottom")
+            else if (gameObject.CompareTag("Enemy Bottom"))
                 LevelManager.instance.AddScore(10);
 		}
 	}

@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance;
 
     public int score       = 0;
-
+    
     public bool gameOver   = false;
     public bool hasWon     = false;
     public bool bonusCheck = false; //Has the UFO ever been killed? If it has, it will never respawn
@@ -32,18 +32,17 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(lives);
-        
         if (!bonusCheck && !bonusAlive) //While we haven't killed the UFO and it isn't on the screen, it might spawn
             UFOSpawn();
-
-        if (lives == 0)
-          gameOver = true;
         
-        if(gameOver == true) //if gameover == true for any reason (including the if statement above)...
+        if(gameOver == true || lives <= 0) //if gameover == true for any reason (including the if statement above)...
         {
             gameOverMenu.SetActive(true);    //brings up the gameOverMenu when any condition for gameover has been met
             //add a line here that also pausess the gamestate when the menu comes up. 
+        }
+        else if (hasWon == true)
+        {
+            //victory!
         }
     }
 
