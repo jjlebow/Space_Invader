@@ -18,7 +18,6 @@ public class Enemy : MonoBehaviour
     {
         Vector2 bottomPosition = new Vector2(this.transform.position.x, enemyCollider2D.bounds.min.y);
         RaycastHit2D detection = Physics2D.Raycast(bottomPosition, Vector2.down, 5f);
-        Debug.DrawRay(this.transform.position, Vector3.down*5, Color.green, 0.01f);
 
         if (!detection.collider || (detection.collider.CompareTag("Player")))
             Shoot();
@@ -32,10 +31,10 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
 	{
-		if (collider.CompareTag("Projectile"))
-		{	
-			Destroy(collider.gameObject);
-			Destroy(gameObject);
+        if (collider.CompareTag("Projectile"))
+        {
+            Destroy(collider.gameObject);
+            Destroy(gameObject);
 
             if (gameObject.CompareTag("Enemy Top"))
                 LevelManager.instance.AddScore(40);
@@ -43,6 +42,8 @@ public class Enemy : MonoBehaviour
                 LevelManager.instance.AddScore(20);
             else if (gameObject.CompareTag("Enemy Bottom"))
                 LevelManager.instance.AddScore(10);
-		}
+        }
+        else if (collider.CompareTag("Player"))
+            LevelManager.instance.gameOver = true;
 	}
 }

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5713129498008795215}
   - component: {fileID: 5713129498008795214}
   - component: {fileID: 5713129498008795249}
-  - component: {fileID: 5713129498008795248}
   - component: {fileID: 3211179386223388167}
+  - component: {fileID: 6311039557450463628}
   m_Layer: 0
   m_Name: BonusEnemy
   m_TagString: Enemy
@@ -108,7 +108,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 0.56}
   m_EdgeRadius: 0
---- !u!50 &5713129498008795248
+--- !u!114 &3211179386223388167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5713129498008795213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaefdb9210adbf640812eae2d59eb08d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &6311039557450463628
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -129,15 +141,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &3211179386223388167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5713129498008795213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaefdb9210adbf640812eae2d59eb08d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

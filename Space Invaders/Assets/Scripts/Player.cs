@@ -63,8 +63,5 @@ public class Player : MonoBehaviour
 
             Destroy(collision.gameObject);
         }
-
-        else
-            LevelManager.instance.gameOver = true;
     }
 }

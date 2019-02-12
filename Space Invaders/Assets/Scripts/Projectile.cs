@@ -8,8 +8,6 @@ public class Projectile : MonoBehaviour
 
     private Collider2D projectileCollider2D;
 
-    private float upperY;
-
     // Start is called before the first frame update
     void Start()
     {
