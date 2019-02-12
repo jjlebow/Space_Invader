@@ -44,6 +44,9 @@ public class Enemy : MonoBehaviour
                 LevelManager.instance.AddScore(10);
         }
         else if (collider.CompareTag("Player"))
+        {
+            Debug.Log("should be dead");
             LevelManager.instance.gameOver = true;
+        }
 	}
 }

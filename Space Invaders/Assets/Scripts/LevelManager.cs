@@ -68,7 +68,7 @@ public class LevelManager : MonoBehaviour
     void UFOSpawn()
     {
         //0.00083333
-        if (Random.value <= 1) //% chance is calculated at % chance/amount of Update() calls; to get a 5% chance of spawn every second, 0.05/60 = 0.00083333
+        if (Random.value <= 0.00083333) //% chance is calculated at % chance/amount of Update() calls; to get a 5% chance of spawn every second, 0.05/60 = 0.00083333
         {
             bonusAlive = true;
 
