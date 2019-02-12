@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -44,12 +44,12 @@ public class LevelManager : MonoBehaviour
         if(gameOver == true || lives <= 0) //if gameover == true for any reason (including the if statement above)...
         {
             gameOverMenu.SetActive(true);    //brings up the gameOverMenu when any condition for gameover has been met
-            //Time.timeScale = 0f;
+            Time.timeScale = 0f;
         }
         else if (hasWon == true)
         {
             winMenu.SetActive(true);
-            //Time.timeScale = 0f;
+            Time.timeScale = 0f;
         }
 
         if(Input.GetKeyDown(KeyCode.Escape))
